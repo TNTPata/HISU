@@ -1,11 +1,11 @@
 	html {
 	font-family: Arial, sans-serif;
-	font-size: 16px;
+	font-size: 18px;
 }
 
 body  {
 	font-family: Arial, sans-serif;
-	font-size: 16px;
+	font-size: 18px;
 	margin: 15%;
 }
 
@@ -64,6 +64,24 @@ body  {
 
 #menu > ul > li:last-child {
 	border-right: none;
+}
+#companyInformation {
+	width: 62%;
+}
+
+#owners {
+	float: right;
+
+}
+
+#owners > ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+#owners > ul > li {
+	margin-top: 14px;
 }
 
 li > a:hover {
