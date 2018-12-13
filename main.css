@@ -65,6 +65,24 @@ body  {
 #menu > ul > li:last-child {
 	border-right: none;
 }
+#companyInformation {
+	width: 62%;
+}
+
+#owners {
+	float: right;
+
+}
+
+#owners > ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+#owners > ul > li {
+	margin-top: 14px;
+}
 
 li > a:hover {
 	color: grey;
