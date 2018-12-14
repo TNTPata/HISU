@@ -81,13 +81,19 @@ body  {
 #menu > ul > li:last-child {
 	border-right: none;
 }
-#companyInformation {
+
+/*#companyInformation {
 	width: 62%;
-}
+}*/
 
 #owners {
 	float: right;
+	padding-left: 50px;
+	padding-bottom: 50px;
+}
 
+#owners > h2 {
+	margin-top: 0;
 }
 
 #owners > ul {
