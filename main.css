@@ -3,8 +3,6 @@
 	font-size: 18px;
 }
 
-
-
 body  {
 	font-family: Arial, sans-serif;
 	font-size: 18px;
@@ -75,19 +73,20 @@ body  {
 	font-weight: bold;
 	font-size: 24px;
 	border-right: 2px solid black;
-	
 }
 
 #menu > ul > li:last-child {
 	border-right: none;
 }
-#companyInformation {
-	width: 62%;
-}
 
 #owners {
 	float: right;
+	padding-left: 50px;
+	padding-bottom: 50px;
+}
 
+#owners > h2 {
+	margin-top: 0;
 }
 
 #owners > ul {
