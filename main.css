@@ -60,6 +60,14 @@ body  {
 	background-color: white;
 }
 
+#menutvå {
+	position: absolute;
+	top: 10px;
+	left: 200px;
+	margin-top: 8px;
+	background-color: white;
+}
+
 #menu > ul {
 	list-style-type: none;
 	margin: 0;
