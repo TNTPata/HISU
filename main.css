@@ -143,9 +143,3 @@ footer > p {
 	color:#626262;
 	margin: 15px;
 }
-
-.container{
-	max-width:1920px;
-	min-width::780;
-	margin:0 auto;
-}
