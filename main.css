@@ -13,31 +13,7 @@ body  {
 	border-style: solid;
 	border-color: black;
 	padding: 15px;
-	padding-bottom: 
 }
-
-/*.hero-image {
-	background-image: url("img/bord.jpg");
-	background-color: #CCC;
-	height: 250px;
-	background-position: center;
-	background-repeat: no-repeat;
-	background-size: cover;
-	position: relative;
-}
-
-.hero-text {
-	text-align: left;
-	position: relative;
-	top: 35%;
-	margin-left: 140px;
-	transform: translate(-50%, -50%);
-	color: black;
-	background:rgba(255,255,255,0.5);
-	border-radius: 3px;
-	width: 254px;
-	padding: 0 6px;
-}*/
 
 #header {
 	position: absolute;
@@ -75,13 +51,11 @@ body  {
 }
 
 #owners {
-	padding-bottom: 50px;
+	padding-top: 30px;
 }
 
-#owners > ul {
-	list-style-type: none;
-	margin: 0;
-	padding: 0;
+#owners > table > tr > td {
+	width: 50%;
 }
 
 #owners > ul > li {
@@ -111,12 +85,6 @@ p {
 	margin: 0;
 }
 
-#gafflar, 
-#knivar, 
-#skedar {
-
-}
-
 .productImage {
 	height: 200px;
 	width: 200px;
@@ -141,5 +109,5 @@ footer {
 footer > p {
 	text-align: center;
 	color:#626262;
-	margin: 5px;
+	margin: 15px;
 }
